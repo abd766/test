@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exhibitor form</title>
+  <style>
+    td {
+      border-color: red
+    }
+  </style>
+</head>
+<body bgcolor="black"><font color="white">
+<table height="800px" width="700px" align="center" cellspacing="15px" cellpadding="15px">
+
+
+  <tr>
+    <td colspan="3" align="center">
+      <h1>SPEAKER REGISTRATION</h1>
+    </td>
+  </tr>
+  <tr>
+    <td>Prefix</td>
+    <td><input type="text" name="pname"></td>
+    <td rowspan="6">
+      <label for="type">What is your presentation type?</label><br>
+      <input type="radio" name="type">Lecture<br>
+      <input type="radio" name="type">Case Study<br>
+      <input type="radio" name="type">Group Discussion<br>
+      <input type="radio" name="type">Product Demo
+    </td>
+
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td cellpadding="20px"><input type="text" name="name" placeholder="first name"><br><br> <input type="text" name="pname"
+        placeholder="last name"></td>
+
+  </tr>
+
+  <tr>
+    <td>Preferred Pronoun</td>
+    <td><input type="text" name="pp"> </td>
+
+  <tr>
+    <td>Email </td>
+    <td><input type="text" name="email"></td>
+
+  </tr>
+
+  <tr>
+    <td>Work Phone</td>
+    <td><input type="text" name="wp"> </td>
+
+  </tr>
+
+
+  <tr>
+    <td>Job Title</td>
+    <td><input type="text" name="cp"></td>
+  </tr>
+  <tr>
+    <td>Affilation/Company/Organization</td>
+    <td><input type="text" name="pp"> </td>
+    <td rowspan="2"> Please share the title of your presentation / speech <br>
+
+      <textarea name="cd" id="comdes" cols="25" rows="5">Write here...</textarea>
+    </td>
+  </tr>
+  <tr>
+    <td>Location </td>
+    <td><input type="text" name="cp"></td>
+
+  </tr>
+
+  <tr>
+    <td rowspan="2">
+      <label for="assistance">Do you need assistance with your flight reservation?</label><br>
+      <input type="radio" id="assistance" name="assistance"> Yes <input type="radio" name="assistance"> No
+
+    <td><input type="text" name="cw"></td>
+    </td>
+    <td colspan="2"> <br>
+      Do you have any needs from a moderator?
+
+      <textarea name="cd" cols="25" rows="5">Write here...</textarea>
+
+
+
+
+    </td>
+  </tr>
+  </tr>
+</table>
+</font>
+</body>
+</html>

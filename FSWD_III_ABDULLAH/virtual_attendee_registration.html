@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exhibitor form</title>
+  <style>
+    td {
+      border-color: red
+    }
+  </style>
+</head>
+
+<body bgcolor="black">
+  <font color="white">
+    <table cellspacing="15px" cellpadding="15px" height="800px" width="700px" align="center">
+
+
+      <tr>
+        <td colspan="3" align="center">
+          <h1>VIRTUAL ATTENDEE REGISTRATION</h1>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Name</td>
+        <td cellspacing="20px"><input type="text" name="name"> <br><br><input type="text" name="pname"></td>
+        <td rowspan="3">
+          Do you require ADA accomodation (closed captioning,etc) to attend this virtual meeting? Please describe.<br>
+          <textarea name="" id="" cols="25" rows="5"></textarea>
+        </td>
+
+      </tr>
+
+
+      <td>Email </td>
+      <td><input type="text" name="email"></td>
+
+
+      <tr>
+        <td>
+          <label for="gender">Gender:</label>
+        </td>
+        <td>
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
+        </td>
+      </tr>
+
+      <tr>
+        <td> Phone</td>
+        <td><input type="text" name="wp"> </td>
+        <td rowspan="2">Do you like to volunteer as a session moderator? <br>
+
+          <input type="radio" name="booth">Yes
+          <input type="radio" name="booth"> No
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>Time Zone</td>
+        <td><input type="text" name="cp"></td>
+
+      </tr>
+      <tr>
+        <td>Preferred Shipping Address</td>
+        <td><input type="text" name="pp"> </td>
+        <td rowspan="1"> Please share the name who will attend with you virtually together <br>
+
+          <textarea name="cd" id="comdes" cols="25" rows="5">Write here...</textarea>
+        </td>
+      </tr>
+
+
+
+
+    </table>
+  </font>
+</body>
+
+</html>
